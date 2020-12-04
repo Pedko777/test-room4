@@ -1,0 +1,59 @@
+.trackBox {
+  text-align: center;
+}
+.trackListBox li:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+.trackListBox li {
+  width: 220px;
+  height: 280px;
+  border-radius: 3px;
+  border: 1px solid rgb(218, 218, 218);
+  //   box-shadow: 0 4px 2px -2px gray;
+  background-color: #222;
+}
+.trackListBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.trackTitle {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 5px;
+  color: #af0000;
+}
+
+.trackArtistName {
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.imgWrapper {
+  padding: 20px;
+}
+
+.trackInfo {
+  padding: 5px;
+}
+.navLink {
+  transition: all 0.5s;
+}
+.trackArtistName {
+  color: #af0000;
+  padding: 5px;
+}
+.navLink :hover,
+.navLink :focus {
+  color: orange;
+}
+
+.linkText {
+  color: #af0000;
+}
+
+.link :hover,
+.link :focus {
+  color: orange;
+}

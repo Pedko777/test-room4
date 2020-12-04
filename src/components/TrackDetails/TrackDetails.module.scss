@@ -1,0 +1,37 @@
+.contentBox {
+  display: flex;
+}
+.genresList {
+  display: flex;
+}
+.genresListItem {
+  font-size: 14px;
+  font-weight: bold;
+}
+.genresList li:not(:last-of-type) {
+  margin-right: 15px;
+}
+.artistName {
+  margin-bottom: 10px;
+}
+
+.imgWrapper {
+  margin-right: 20px;
+}
+
+.publishedDate {
+  font-weight: bold;
+  font-size: 16px;
+}
+.genresBox {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  margin-bottom: 15px;
+}
+.boxTitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
